@@ -1,0 +1,91 @@
+[Appium] Welcome to Appium v1.7.2
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":1,"browserName":"","appiumVersion":"1.7.2","platformName":"iOS","platformVersion":"11.2","deviceName":"iPhone 8","app":"./ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app","requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"}}}
+[debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"maxInstances":1,"browserName":"","appiumVersion":"1.7.2","platformName":"iOS","platformVersion":"11.2","deviceName":"iPhone 8","app":"./ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app","requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"}},null,null]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1529269144078 (13:59:04 GMT-0700 (PDT))
+[Appium] Requested iOS support with version >= 10, using XCUITest driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+[Appium] Creating new XCUITestDriver (v2.64.0) session
+[Appium] Capabilities:
+[Appium]   javascriptEnabled: true
+[Appium]   locationContextEnabled: true
+[Appium]   handlesAlerts: true
+[Appium]   rotatable: true
+[Appium]   maxInstances: 1
+[Appium]   browserName: 
+[Appium]   appiumVersion: 1.7.2
+[Appium]   platformName: iOS
+[Appium]   platformVersion: 11.2
+[Appium]   deviceName: iPhone 8
+[Appium]   app: ./ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app
+[Appium]   requestOrigins: {
+[Appium]     url: http://webdriver.io
+[Appium]     version: 4.12.0
+[Appium]     name: webdriverio
+[Appium]   }
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: javascriptEnabled, locationContextEnabled, handlesAlerts, rotatable, maxInstances, appiumVersion, requestOrigins.
+[BaseDriver] Session created with session id: f63fcda1-ad51-4f85-82a2-ca0efa62f015
+[debug] [XCUITest] Current user: 'rpanidepu'
+[debug] [XCUITest] Current version of libimobiledevice: stable 1.2.0 (bottled), HEAD
+[debug] [XCUITest] Xcode version set to '9.2' (tools v9.2.0.0.1.1510905681)
+[debug] [XCUITest] iOS SDK Version set to '11.2'
+[debug] [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1529269145739 (13:59:05 GMT-0700 (PDT))
+[iOSSim] Constructing iOS simulator for Xcode version 9.2 with udid 'EB010FF3-D4EF-4A41-8431-6B8FD7EA4708'
+[XCUITest] Determining device to run tests on: udid: 'EB010FF3-D4EF-4A41-8431-6B8FD7EA4708', real device: false
+[BaseDriver] Using local app './ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app'
+[debug] [BaseDriver] Event 'appConfigured' logged at 1529269146240 (13:59:06 GMT-0700 (PDT))
+[debug] [XCUITest] Checking whether app './ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app' is actually present on file system
+[debug] [XCUITest] App is present
+[debug] [iOS] Getting bundle ID from app './ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app': 'org.reactjs.native.example.samplernapp'
+[debug] [BaseDriver] Event 'resetStarted' logged at 1529269146244 (13:59:06 GMT-0700 (PDT))
+[XCUITest] Not scrubbing third party app in anticipation of uninstall
+[debug] [BaseDriver] Event 'resetComplete' logged at 1529269146722 (13:59:06 GMT-0700 (PDT))
+[debug] [XCUITest] Starting log capture for iOS Simulator with udid 'EB010FF3-D4EF-4A41-8431-6B8FD7EA4708', using 'xcrun simctl spawn EB010FF3-D4EF-4A41-8431-6B8FD7EA4708 log stream --style compact'
+[debug] [BaseDriver] Event 'logCaptureStarted' logged at 1529269147381 (13:59:07 GMT-0700 (PDT))
+[XCUITest] Setting up simulator
+[debug] [iOS] No reason to set locale
+[debug] [iOS] No iOS / app preferences to set
+[debug] [iOSSim] Matched 1 Simulator cache item for cleanup: /Users/rpanidepu/Library/Developer/CoreSimulator/Devices/EB010FF3-D4EF-4A41-8431-6B8FD7EA4708/data/Library/Caches/com.apple.mobile.installd.staging
+[debug] [iOSSim] Setting common Simulator preferences to {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] Updated EB010FF3-D4EF-4A41-8431-6B8FD7EA4708 Simulator preferences at '/Users/rpanidepu/Library/Preferences/com.apple.iphonesimulator.plist' with {"ConnectHardwareKeyboard":false}
+[debug] [iOSSim] The count of running Simulator UI client instances is 1
+[iOSSim] Both Simulator with UDID EB010FF3-D4EF-4A41-8431-6B8FD7EA4708 and the UI client are currently running
+[debug] [BaseDriver] Event 'simStarted' logged at 1529269147740 (13:59:07 GMT-0700 (PDT))
+[debug] [XCUITest] Reset requested. Removing app with id 'org.reactjs.native.example.samplernapp' from the device
+[debug] [XCUITest] Installing './ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app' on Simulator with UUID 'EB010FF3-D4EF-4A41-8431-6B8FD7EA4708'...
+[debug] [XCUITest] The app has been installed successfully.
+[debug] [BaseDriver] Event 'appInstalled' logged at 1529269151911 (13:59:11 GMT-0700 (PDT))
+[XCUITest] Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[debug] [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.2\",\n      \"sdkVersion\" : \"11.2\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.2\",\n      \"ip\" : \"192.168.0.25\"\n    },\n    \"build\" : {\n      \"time\" : \"Mar 30 2018 14:52:17\"\n    }\n  },\n  \"sessionId\" : \"005F1B6E-0CBE-41CF-AF0F-EBDA23A0D757\",\n  \"status\" : 0\n}"
+[XCUITest] Will reuse previously cached WDA instance at 'http://localhost:8100/'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [BaseDriver] Event 'wdaStartAttempted' logged at 1529269152054 (13:59:12 GMT-0700 (PDT))
+[XCUITest] Using provided WebdriverAgent at 'http://localhost:8100/'
+[debug] [BaseDriver] Event 'wdaSessionAttempted' logged at 1529269152056 (13:59:12 GMT-0700 (PDT))
+[debug] [XCUITest] Sending createSession command to WDA
+[debug] [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"11.2\",\n      \"sdkVersion\" : \"11.2\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"11.2\",\n      \"ip\" : \"192.168.0.25\"\n    },\n    \"build\" : {\n      \"time\" : \"Mar 30 2018 14:52:17\"\n    }\n  },\n  \"sessionId\" : \"005F1B6E-0CBE-41CF-AF0F-EBDA23A0D757\",\n  \"status\" : 0\n}"
+[debug] [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"org.reactjs.native.example.samplernapp","arguments":[],"environment":{},"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+[debug] [JSONWP Proxy] Got response with status 200: {"value":{"sessionId":"93BA401B-2AE4-4A7A-97B4-A3B30687CC98","capabilities":{"device":"iphone","browserName":"Sample","sdkVersion":"11.2","CFBundleIdentifier":"org.reactjs.native.example.samplernapp"}},"sessionId":"93BA401B-2AE4-4A7A-97B4-A3B30687CC98","status":0}
+[debug] [BaseDriver] Event 'wdaSessionStarted' logged at 1529269155150 (13:59:15 GMT-0700 (PDT))
+[debug] [BaseDriver] Event 'wdaStarted' logged at 1529269155150 (13:59:15 GMT-0700 (PDT))
+[XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [BaseDriver] Event 'orientationSet' logged at 1529269155151 (13:59:15 GMT-0700 (PDT))
+[Appium] New XCUITestDriver session created successfully, session f63fcda1-ad51-4f85-82a2-ca0efa62f015 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1529269155153 (13:59:15 GMT-0700 (PDT))
+[debug] [MJSONWP] Responding to client with driver.createSession() result: {"webStorageEnabled":false,"locationContextEnabled":true,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"handlesAlerts":true,"rotatable":true,"maxInstances":1,"appiumVersion":"1.7.2","platformName":"iOS","platformVersion":"11.2","deviceName":"iPhone 8","app":"./ios/build/Build/Products/Debug-iphonesimulator/samplernapp.app","requestOrigins":{"url":"http://webdriver.io","version":"4.12.0","name":"webdriverio"},"udid":"EB010FF3-D4EF-4A41-8431-6B8FD7EA4708"}
+[HTTP] <-- POST /wd/hub/session 200 11082 ms - 623 
+[HTTP] --> DELETE /wd/hub/session/f63fcda1-ad51-4f85-82a2-ca0efa62f015 {}
+[debug] [MJSONWP] Calling AppiumDriver.deleteSession() with args: ["f63fcda1-ad51-4f85-82a2-ca0efa62f015"]
+[debug] [BaseDriver] Event 'quitSessionRequested' logged at 1529269158306 (13:59:18 GMT-0700 (PDT))
+[Appium] Removing session f63fcda1-ad51-4f85-82a2-ca0efa62f015 from our master session list
+[debug] [JSONWP Proxy] Proxying [DELETE /session/f63fcda1-ad51-4f85-82a2-ca0efa62f015] to [DELETE http://localhost:8100/session/93BA401B-2AE4-4A7A-97B4-A3B30687CC98] with no body
+[debug] [JSONWP Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"19E79456-CF35-4A07-8509-6884683FB5A2\",\n  \"status\" : 0\n}"
+[debug] [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [iOSLog] Stopping iOS log capture
+[debug] [BaseDriver] Event 'quitSessionFinished' logged at 1529269158610 (13:59:18 GMT-0700 (PDT))
+[debug] [MJSONWP] Received response: null
+[debug] [MJSONWP] But deleting session, so not returning
+[debug] [MJSONWP] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /wd/hub/session/f63fcda1-ad51-4f85-82a2-ca0efa62f015 200 307 ms - 76 

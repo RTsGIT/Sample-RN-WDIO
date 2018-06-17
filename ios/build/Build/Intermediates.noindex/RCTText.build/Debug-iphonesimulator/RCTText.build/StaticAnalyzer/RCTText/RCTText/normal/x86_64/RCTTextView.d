@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/node_modules/react-native/Libraries/Text/Text/RCTTextView.m \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/node_modules/react-native/Libraries/Text/Text/RCTTextView.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/rpanidepu/Documents/GoDaddy/sample-rn-app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h
