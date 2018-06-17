@@ -16,11 +16,10 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
-    services: ['sauce'],
-    host: 'ondemand.saucelabs.com',
-    port: 80,
-    user: process.env.SAUCE_USERNAME,
-    key: process.env.SAUCE_ACCESS_KEY,
+    protocol: 'https',
+    host: 'us1.appium.testobject.com',
+    port: 443,
+    path: '/api/appium/wd/hub',
     //
     // ============
     // Capabilities
@@ -50,10 +49,11 @@ exports.config = {
         maxInstances: 1,
         browserName: '',
         appiumVersion: '1.7.2',
-        platformName: 'iOS',
-        platformVersion: '11.2',
+        platformName: 'ios',
+        platformVersion: '11.3',
         deviceName: 'iPhone 8',
-        app: 'sauce-storage:jenkins-gx-gx-go-lj-2ferrorstate-1.zip'
+        testobject_api_key: process.env.TESTOBJECT_ACCESS_KEY,
+        testobject_app_id: process.env.APP_IDENTIFIER
     }],
     //
     // ===================
